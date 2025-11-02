@@ -25,11 +25,32 @@ public class IfPractice extends OpMode {
 
 
         double leftY = gamepad1.left_stick_y;
+
+        if (leftY < 0.1 && leftY > -0.1) {
+            telemetry.addData("Left Stick", "In Dead Zone");
+        }
+/*
         if (leftY < 0){
             telemetry.addData("Left Stick", "is Negative");
         }
-        else {
-            telemetry.addData("Left Stick", "is Positive!");
+        else if (leftY > 0.5) {
+        telemetry.addData("Left Stick", "Greater than 50%");
         }
+        else if (leftY > 0) {
+            telemetry.addData("Left Stick", "Is greater that O");
+        }
+        else {
+            telemetry.addData("Left Stick", "is Zero!");
+        } */
+
+
+        telemetry.addData("Left Stick value", leftY);
     }
 }
+
+
+/*
+And - &&
+Or - ||
+Not - !
+ */
