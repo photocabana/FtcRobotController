@@ -6,7 +6,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 // @TeleOp
-@Disabled
+// @Disabled
 @Autonomous
 public class HelloWorld extends OpMode {
     
