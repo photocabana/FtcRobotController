@@ -1,4 +1,7 @@
 package org.firstinspires.ftc.teamcode;
 
-public class FTCRobotController {
+import com.qualcomm.robotcore.eventloop.opmode.OpMode;
+
+public class FTCRobotController extends OpMode {
+    
 }
